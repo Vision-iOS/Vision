@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091C762D24F00AB100795C93 /* TGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 091C762C24F00AB100795C93 /* TGLabel.m */; };
+		091F0467257E65DC00A908A0 /* TGConfidenceSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F0466257E65DC00A908A0 /* TGConfidenceSettingsViewController.m */; };
+		092F0AD8258A50430065123A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0AD6258A50420065123A /* UIView+Toast.m */; };
+		09387A0524FBF3B900C25B97 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09387A0424FBF3B900C25B97 /* Resnet50.mlmodel */; };
+		093BC6F424DAF80200BC54C8 /* TGPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6DF24DAF80100BC54C8 /* TGPermissionsManager.m */; };
+		093BC6F524DAF80200BC54C8 /* TGDotShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E124DAF80100BC54C8 /* TGDotShapeLayer.m */; };
+		093BC6F624DAF80200BC54C8 /* TGBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E224DAF80100BC54C8 /* TGBarButtonItem.m */; };
+		093BC6F724DAF80200BC54C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E324DAF80100BC54C8 /* main.m */; };
+		093BC6F824DAF80200BC54C8 /* TGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E724DAF80100BC54C8 /* TGButton.m */; };
+		093BC6F924DAF80200BC54C8 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E824DAF80100BC54C8 /* TGAppDelegate.m */; };
+		093BC6FA24DAF80200BC54C8 /* TGImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6E924DAF80200BC54C8 /* TGImages.m */; };
+		093BC6FB24DAF80200BC54C8 /* TGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6EC24DAF80200BC54C8 /* TGColor.m */; };
+		093BC6FC24DAF80200BC54C8 /* TGDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6EE24DAF80200BC54C8 /* TGDotView.m */; };
+		093BC6FD24DAF80200BC54C8 /* TGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6EF24DAF80200BC54C8 /* TGMainViewController.m */; };
+		093BC6FE24DAF80200BC54C8 /* TGImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093BC6F124DAF80200BC54C8 /* TGImagesViewController.m */; };
+		094FC6522636F1BC004ECD7E /* TGClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FC6492636F1BC004ECD7E /* TGClusterAnnotation.m */; };
+		094FC6532636F1BC004ECD7E /* TGClusterMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FC64B2636F1BC004ECD7E /* TGClusterMapView.m */; };
+		094FC6542636F1BC004ECD7E /* TGClusterableAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FC64D2636F1BC004ECD7E /* TGClusterableAnnotation.m */; };
+		094FC6552636F1BC004ECD7E /* TGMapCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FC64F2636F1BC004ECD7E /* TGMapCluster.m */; };
+		094FC6562636F1BC004ECD7E /* TGMapPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094FC6512636F1BC004ECD7E /* TGMapPointAnnotation.m */; };
+		09525682250935BB00EA34B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09525681250935BB00EA34B6 /* GoogleService-Info.plist */; };
+		097E5C0025D6C19A0093BF3D /* UIMapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E5BFF25D6C1990093BF3D /* UIMapButton.m */; };
+		0982299124DAF2970046F043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0982299024DAF2970046F043 /* Assets.xcassets */; };
+		0982299424DAF2970046F043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0982299224DAF2970046F043 /* LaunchScreen.storyboard */; };
+		098229A124DAF2980046F043 /* TGAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 098229A024DAF2980046F043 /* TGAppTests.m */; };
+		098229AC24DAF2980046F043 /* TGAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 098229AB24DAF2980046F043 /* TGAppUITests.m */; };
+		09871CCF25ADEA21001409D5 /* TGCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 09871CCE25ADEA21001409D5 /* TGCoordinates.m */; };
+		098EB5A22507CD390060EB7F /* TGMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 098EB5A12507CD380060EB7F /* TGMetadata.m */; };
+		0991D463256FA0CC009822CB /* TGSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0991D462256FA0CC009822CB /* TGSettingsViewController.m */; };
+		09ADF1D12505189300253B5D /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1D02505189200253B5D /* MobileNet.mlmodel */; };
+		09ADF1E92505413000253B5D /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1D72505412500253B5D /* TOCropViewControllerTransitioning.m */; };
+		09ADF1EA2505413000253B5D /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1D92505412700253B5D /* TOCropViewController.m */; };
+		09ADF1EB2505413000253B5D /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1DC2505412800253B5D /* UIImage+CropRotate.m */; };
+		09ADF1EC2505413000253B5D /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1DE2505412A00253B5D /* TOCroppedImageAttributes.m */; };
+		09ADF1ED2505413000253B5D /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1E32505412D00253B5D /* TOCropView.m */; };
+		09ADF1EE2505413000253B5D /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1E42505412D00253B5D /* TOCropToolbar.m */; };
+		09ADF1EF2505413000253B5D /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1E62505412E00253B5D /* TOCropOverlayView.m */; };
+		09ADF1F02505413000253B5D /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1E72505412F00253B5D /* TOCropScrollView.m */; };
+		09ADF1F12505413000253B5D /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ADF1E82505412F00253B5D /* TOActivityCroppedImageProvider.m */; };
+		09B1F24D25069BF500D73BAC /* TGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1F24C25069BF500D73BAC /* TGImage.m */; };
+		09B229A2257A8673001AFE53 /* TGConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B229A1257A8673001AFE53 /* TGConfettiView.m */; };
+		09C5961F257AB2070044F15F /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09C5961E257AB2070044F15F /* Resources.bundle */; };
+		09C8AD9925F9094900841F3F /* TGHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C8AD9825F9094800841F3F /* TGHeaderView.m */; };
+		09D075E12583C1400072229F /* UIScrollableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D075E02583C1400072229F /* UIScrollableLabel.m */; };
+		09E4916D24F7F99F00A61B96 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 09E4916C24F7F99E00A61B96 /* Inceptionv3.mlmodel */; };
+		09E51646257686EB008BA68A /* TGCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E51636257686EB008BA68A /* TGCircleButton.m */; };
+		09E51647257686EB008BA68A /* TGStaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E51639257686EB008BA68A /* TGStaticViewController.m */; };
+		09E51648257686EB008BA68A /* TGSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E5163B257686EB008BA68A /* TGSwitch.m */; };
+		09E51649257686EB008BA68A /* TGTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E5163D257686EB008BA68A /* TGTableRow.m */; };
+		09E5164A257686EB008BA68A /* TGTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E5163F257686EB008BA68A /* TGTableSection.m */; };
+		09E5164B257686EB008BA68A /* TGTableSections.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E51641257686EB008BA68A /* TGTableSections.m */; };
+		09E5164C257686EB008BA68A /* TGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E51643257686EB008BA68A /* TGTableViewCell.m */; };
+		09E5164D257686EB008BA68A /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E51645257686EB008BA68A /* TGViewController.m */; };
+		09E516552576889C008BA68A /* TGImagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E516532576889C008BA68A /* TGImagesController.m */; };
+		09E516562576889C008BA68A /* TGImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E516542576889C008BA68A /* TGImageViewerViewController.m */; };
+		CDD61D7914332A2F4070B0BC /* Pods_TGAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB6BADB32F876D7DC2BB6C /* Pods_TGAppTests.framework */; };
+		CE4B290092698CFF445EBE5B /* Pods_TGApp_TGAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13A7E2071D7C9745C3127C /* Pods_TGApp_TGAppUITests.framework */; };
+		DD2156BF3EC6429CF663C3F8 /* Pods_TGApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7E8F8CA1C18DA5891A9DA0 /* Pods_TGApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0982299D24DAF2980046F043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0982297924DAF2920046F043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0982298024DAF2920046F043;
+			remoteInfo = TGApp;
+		};
+		098229A824DAF2980046F043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0982297924DAF2920046F043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0982298024DAF2920046F043;
+			remoteInfo = TGApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091C762C24F00AB100795C93 /* TGLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGLabel.m; sourceTree = "<group>"; };
+		091C762E24F00AC900795C93 /* TGLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGLabel.h; sourceTree = "<group>"; };
+		091F0465257E65DB00A908A0 /* TGConfidenceSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGConfidenceSettingsViewController.h; sourceTree = "<group>"; };
+		091F0466257E65DC00A908A0 /* TGConfidenceSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGConfidenceSettingsViewController.m; sourceTree = "<group>"; };
+		092F0AD6258A50420065123A /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		092F0AD7258A50430065123A /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		09387A0424FBF3B900C25B97 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		093BC6DF24DAF80100BC54C8 /* TGPermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPermissionsManager.m; sourceTree = "<group>"; };
+		093BC6E024DAF80100BC54C8 /* TGDotShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDotShapeLayer.h; sourceTree = "<group>"; };
+		093BC6E124DAF80100BC54C8 /* TGDotShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDotShapeLayer.m; sourceTree = "<group>"; };
+		093BC6E224DAF80100BC54C8 /* TGBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBarButtonItem.m; sourceTree = "<group>"; };
+		093BC6E324DAF80100BC54C8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093BC6E424DAF80100BC54C8 /* TGPermissionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPermissionsManager.h; sourceTree = "<group>"; };
+		093BC6E524DAF80100BC54C8 /* TGImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImagesViewController.h; sourceTree = "<group>"; };
+		093BC6E624DAF80100BC54C8 /* TGImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImages.h; sourceTree = "<group>"; };
+		093BC6E724DAF80100BC54C8 /* TGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGButton.m; sourceTree = "<group>"; };
+		093BC6E824DAF80100BC54C8 /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		093BC6E924DAF80200BC54C8 /* TGImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImages.m; sourceTree = "<group>"; };
+		093BC6EA24DAF80200BC54C8 /* TGBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBarButtonItem.h; sourceTree = "<group>"; };
+		093BC6EB24DAF80200BC54C8 /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		093BC6EC24DAF80200BC54C8 /* TGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGColor.m; sourceTree = "<group>"; };
+		093BC6ED24DAF80200BC54C8 /* TGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMainViewController.h; sourceTree = "<group>"; };
+		093BC6EE24DAF80200BC54C8 /* TGDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDotView.m; sourceTree = "<group>"; };
+		093BC6EF24DAF80200BC54C8 /* TGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMainViewController.m; sourceTree = "<group>"; };
+		093BC6F024DAF80200BC54C8 /* TGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGColor.h; sourceTree = "<group>"; };
+		093BC6F124DAF80200BC54C8 /* TGImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImagesViewController.m; sourceTree = "<group>"; };
+		093BC6F224DAF80200BC54C8 /* TGDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDotView.h; sourceTree = "<group>"; };
+		093BC6F324DAF80200BC54C8 /* TGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGButton.h; sourceTree = "<group>"; };
+		094FC6482636F1BC004ECD7E /* TGClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGClusterAnnotation.h; sourceTree = "<group>"; };
+		094FC6492636F1BC004ECD7E /* TGClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGClusterAnnotation.m; sourceTree = "<group>"; };
+		094FC64A2636F1BC004ECD7E /* TGClusterMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGClusterMapView.h; sourceTree = "<group>"; };
+		094FC64B2636F1BC004ECD7E /* TGClusterMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGClusterMapView.m; sourceTree = "<group>"; };
+		094FC64C2636F1BC004ECD7E /* TGClusterableAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGClusterableAnnotation.h; sourceTree = "<group>"; };
+		094FC64D2636F1BC004ECD7E /* TGClusterableAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGClusterableAnnotation.m; sourceTree = "<group>"; };
+		094FC64E2636F1BC004ECD7E /* TGMapCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapCluster.h; sourceTree = "<group>"; };
+		094FC64F2636F1BC004ECD7E /* TGMapCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapCluster.m; sourceTree = "<group>"; };
+		094FC6502636F1BC004ECD7E /* TGMapPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapPointAnnotation.h; sourceTree = "<group>"; };
+		094FC6512636F1BC004ECD7E /* TGMapPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapPointAnnotation.m; sourceTree = "<group>"; };
+		09525681250935BB00EA34B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		097E5BFE25D6C14F0093BF3D /* UIMapButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMapButton.h; sourceTree = "<group>"; };
+		097E5BFF25D6C1990093BF3D /* UIMapButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIMapButton.m; sourceTree = "<group>"; };
+		0982298124DAF2920046F043 /* TGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0982299024DAF2970046F043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0982299324DAF2970046F043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0982299524DAF2970046F043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0982299C24DAF2980046F043 /* TGAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		098229A024DAF2980046F043 /* TGAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppTests.m; sourceTree = "<group>"; };
+		098229A224DAF2980046F043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098229A724DAF2980046F043 /* TGAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		098229AB24DAF2980046F043 /* TGAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppUITests.m; sourceTree = "<group>"; };
+		098229AD24DAF2980046F043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09871CCE25ADEA21001409D5 /* TGCoordinates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCoordinates.m; sourceTree = "<group>"; };
+		09871CD325ADEA41001409D5 /* TGCoordinates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGCoordinates.h; sourceTree = "<group>"; };
+		098EB5A02507CD380060EB7F /* TGMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMetadata.h; sourceTree = "<group>"; };
+		098EB5A12507CD380060EB7F /* TGMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMetadata.m; sourceTree = "<group>"; };
+		0991D461256FA0C8009822CB /* TGSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSettingsViewController.h; sourceTree = "<group>"; };
+		0991D462256FA0CC009822CB /* TGSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSettingsViewController.m; sourceTree = "<group>"; };
+		09ADF1D02505189200253B5D /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		09ADF1D62505412500253B5D /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		09ADF1D72505412500253B5D /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		09ADF1D82505412600253B5D /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		09ADF1D92505412700253B5D /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		09ADF1DA2505412700253B5D /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		09ADF1DB2505412800253B5D /* TOCropViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
+		09ADF1DC2505412800253B5D /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		09ADF1DD2505412900253B5D /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		09ADF1DE2505412A00253B5D /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		09ADF1DF2505412A00253B5D /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		09ADF1E02505412B00253B5D /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		09ADF1E12505412B00253B5D /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		09ADF1E22505412C00253B5D /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		09ADF1E32505412D00253B5D /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		09ADF1E42505412D00253B5D /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		09ADF1E52505412E00253B5D /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		09ADF1E62505412E00253B5D /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		09ADF1E72505412F00253B5D /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		09ADF1E82505412F00253B5D /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		09B1F24B25069BF400D73BAC /* TGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImage.h; sourceTree = "<group>"; };
+		09B1F24C25069BF500D73BAC /* TGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImage.m; sourceTree = "<group>"; };
+		09B229A0257A8672001AFE53 /* TGConfettiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGConfettiView.h; sourceTree = "<group>"; };
+		09B229A1257A8673001AFE53 /* TGConfettiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGConfettiView.m; sourceTree = "<group>"; };
+		09C5961E257AB2070044F15F /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		09C8AD9725F9094800841F3F /* TGHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHeaderView.h; sourceTree = "<group>"; };
+		09C8AD9825F9094800841F3F /* TGHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHeaderView.m; sourceTree = "<group>"; };
+		09D075DF2583C0EF0072229F /* UIScrollableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollableLabel.h; sourceTree = "<group>"; };
+		09D075E02583C1400072229F /* UIScrollableLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollableLabel.m; sourceTree = "<group>"; };
+		09E4916C24F7F99E00A61B96 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		09E51635257686EB008BA68A /* TGCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCircleButton.h; sourceTree = "<group>"; };
+		09E51636257686EB008BA68A /* TGCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCircleButton.m; sourceTree = "<group>"; };
+		09E51637257686EB008BA68A /* TGStaticTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStaticTable.h; sourceTree = "<group>"; };
+		09E51638257686EB008BA68A /* TGStaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStaticViewController.h; sourceTree = "<group>"; };
+		09E51639257686EB008BA68A /* TGStaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGStaticViewController.m; sourceTree = "<group>"; };
+		09E5163A257686EB008BA68A /* TGSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSwitch.h; sourceTree = "<group>"; };
+		09E5163B257686EB008BA68A /* TGSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSwitch.m; sourceTree = "<group>"; };
+		09E5163C257686EB008BA68A /* TGTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableRow.h; sourceTree = "<group>"; };
+		09E5163D257686EB008BA68A /* TGTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableRow.m; sourceTree = "<group>"; };
+		09E5163E257686EB008BA68A /* TGTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableSection.h; sourceTree = "<group>"; };
+		09E5163F257686EB008BA68A /* TGTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableSection.m; sourceTree = "<group>"; };
+		09E51640257686EB008BA68A /* TGTableSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableSections.h; sourceTree = "<group>"; };
+		09E51641257686EB008BA68A /* TGTableSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableSections.m; sourceTree = "<group>"; };
+		09E51642257686EB008BA68A /* TGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableViewCell.h; sourceTree = "<group>"; };
+		09E51643257686EB008BA68A /* TGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableViewCell.m; sourceTree = "<group>"; };
+		09E51644257686EB008BA68A /* TGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
+		09E51645257686EB008BA68A /* TGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
+		09E516512576889B008BA68A /* TGImagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImagesController.h; sourceTree = "<group>"; };
+		09E516522576889B008BA68A /* TGImageViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImageViewerViewController.h; sourceTree = "<group>"; };
+		09E516532576889C008BA68A /* TGImagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImagesController.m; sourceTree = "<group>"; };
+		09E516542576889C008BA68A /* TGImageViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImageViewerViewController.m; sourceTree = "<group>"; };
+		35B36184448E9B541298C0FD /* Pods-TGApp-TGAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGApp-TGAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TGApp-TGAppUITests/Pods-TGApp-TGAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C7E8F8CA1C18DA5891A9DA0 /* Pods_TGApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13A7E2071D7C9745C3127C /* Pods_TGApp_TGAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGApp_TGAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E682207A3E9769BE1B7DA5 /* Pods-TGApp-TGAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGApp-TGAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TGApp-TGAppUITests/Pods-TGApp-TGAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95DB6BADB32F876D7DC2BB6C /* Pods_TGAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C2AF5E8191D9358D5D42BD /* Pods-TGApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGApp.release.xcconfig"; path = "Target Support Files/Pods-TGApp/Pods-TGApp.release.xcconfig"; sourceTree = "<group>"; };
+		E51BE0D15C0451E62266CCDB /* Pods-TGApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGApp.debug.xcconfig"; path = "Target Support Files/Pods-TGApp/Pods-TGApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0B117099CCBE1B02076BE2 /* Pods-TGAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGAppTests.release.xcconfig"; path = "Target Support Files/Pods-TGAppTests/Pods-TGAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F29E550D498EC5BB76B1DA6F /* Pods-TGAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TGAppTests/Pods-TGAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0982297E24DAF2920046F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2156BF3EC6429CF663C3F8 /* Pods_TGApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0982299924DAF2980046F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD61D7914332A2F4070B0BC /* Pods_TGAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098229A424DAF2980046F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B290092698CFF445EBE5B /* Pods_TGApp_TGAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094FC6472636F1BC004ECD7E /* TGClusterMapView */ = {
+			isa = PBXGroup;
+			children = (
+				094FC6482636F1BC004ECD7E /* TGClusterAnnotation.h */,
+				094FC6492636F1BC004ECD7E /* TGClusterAnnotation.m */,
+				094FC64A2636F1BC004ECD7E /* TGClusterMapView.h */,
+				094FC64B2636F1BC004ECD7E /* TGClusterMapView.m */,
+				094FC64C2636F1BC004ECD7E /* TGClusterableAnnotation.h */,
+				094FC64D2636F1BC004ECD7E /* TGClusterableAnnotation.m */,
+				094FC64E2636F1BC004ECD7E /* TGMapCluster.h */,
+				094FC64F2636F1BC004ECD7E /* TGMapCluster.m */,
+				094FC6502636F1BC004ECD7E /* TGMapPointAnnotation.h */,
+				094FC6512636F1BC004ECD7E /* TGMapPointAnnotation.m */,
+			);
+			path = TGClusterMapView;
+			sourceTree = "<group>";
+		};
+		0982297824DAF2920046F043 = {
+			isa = PBXGroup;
+			children = (
+				0982298324DAF2920046F043 /* TGApp */,
+				0982299F24DAF2980046F043 /* TGAppTests */,
+				098229AA24DAF2980046F043 /* TGAppUITests */,
+				0982298224DAF2920046F043 /* Products */,
+				AB9C35991A7495C760A16C54 /* Pods */,
+				2458FD7AD9279D497156F582 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0982298224DAF2920046F043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0982298124DAF2920046F043 /* TGApp.app */,
+				0982299C24DAF2980046F043 /* TGAppTests.xctest */,
+				098229A724DAF2980046F043 /* TGAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0982298324DAF2920046F043 /* TGApp */ = {
+			isa = PBXGroup;
+			children = (
+				09ADF1D52505408B00253B5D /* TO */,
+				093BC6E324DAF80100BC54C8 /* main.m */,
+				098EB5A02507CD380060EB7F /* TGMetadata.h */,
+				098EB5A12507CD380060EB7F /* TGMetadata.m */,
+				093BC6EB24DAF80200BC54C8 /* TGAppDelegate.h */,
+				093BC6E824DAF80100BC54C8 /* TGAppDelegate.m */,
+				093BC6EA24DAF80200BC54C8 /* TGBarButtonItem.h */,
+				093BC6E224DAF80100BC54C8 /* TGBarButtonItem.m */,
+				093BC6F324DAF80200BC54C8 /* TGButton.h */,
+				093BC6E724DAF80100BC54C8 /* TGButton.m */,
+				093BC6F024DAF80200BC54C8 /* TGColor.h */,
+				0991D461256FA0C8009822CB /* TGSettingsViewController.h */,
+				09E51634257686EB008BA68A /* TGStaticTable */,
+				0991D462256FA0CC009822CB /* TGSettingsViewController.m */,
+				093BC6EC24DAF80200BC54C8 /* TGColor.m */,
+				093BC6E024DAF80100BC54C8 /* TGDotShapeLayer.h */,
+				093BC6E124DAF80100BC54C8 /* TGDotShapeLayer.m */,
+				093BC6F224DAF80200BC54C8 /* TGDotView.h */,
+				093BC6EE24DAF80200BC54C8 /* TGDotView.m */,
+				09B1F24B25069BF400D73BAC /* TGImage.h */,
+				09B1F24C25069BF500D73BAC /* TGImage.m */,
+				093BC6E624DAF80100BC54C8 /* TGImages.h */,
+				093BC6E924DAF80200BC54C8 /* TGImages.m */,
+				093BC6E524DAF80100BC54C8 /* TGImagesViewController.h */,
+				093BC6F124DAF80200BC54C8 /* TGImagesViewController.m */,
+				09ADF1D02505189200253B5D /* MobileNet.mlmodel */,
+				09387A0424FBF3B900C25B97 /* Resnet50.mlmodel */,
+				09E4916C24F7F99E00A61B96 /* Inceptionv3.mlmodel */,
+				093BC6ED24DAF80200BC54C8 /* TGMainViewController.h */,
+				093BC6EF24DAF80200BC54C8 /* TGMainViewController.m */,
+				093BC6E424DAF80100BC54C8 /* TGPermissionsManager.h */,
+				093BC6DF24DAF80100BC54C8 /* TGPermissionsManager.m */,
+				09C5961E257AB2070044F15F /* Resources.bundle */,
+				09E516512576889B008BA68A /* TGImagesController.h */,
+				09E516532576889C008BA68A /* TGImagesController.m */,
+				09E516522576889B008BA68A /* TGImageViewerViewController.h */,
+				09E516542576889C008BA68A /* TGImageViewerViewController.m */,
+				09B229A0257A8672001AFE53 /* TGConfettiView.h */,
+				09B229A1257A8673001AFE53 /* TGConfettiView.m */,
+				091F0465257E65DB00A908A0 /* TGConfidenceSettingsViewController.h */,
+				091F0466257E65DC00A908A0 /* TGConfidenceSettingsViewController.m */,
+				0982299024DAF2970046F043 /* Assets.xcassets */,
+				0982299224DAF2970046F043 /* LaunchScreen.storyboard */,
+				09525681250935BB00EA34B6 /* GoogleService-Info.plist */,
+				0982299524DAF2970046F043 /* Info.plist */,
+				09C8AD9725F9094800841F3F /* TGHeaderView.h */,
+				09C8AD9825F9094800841F3F /* TGHeaderView.m */,
+				091C762C24F00AB100795C93 /* TGLabel.m */,
+				091C762E24F00AC900795C93 /* TGLabel.h */,
+				09D075DF2583C0EF0072229F /* UIScrollableLabel.h */,
+				09D075E02583C1400072229F /* UIScrollableLabel.m */,
+				092F0AD7258A50430065123A /* UIView+Toast.h */,
+				092F0AD6258A50420065123A /* UIView+Toast.m */,
+				094FC6472636F1BC004ECD7E /* TGClusterMapView */,
+				09871CCE25ADEA21001409D5 /* TGCoordinates.m */,
+				09871CD325ADEA41001409D5 /* TGCoordinates.h */,
+				097E5BFE25D6C14F0093BF3D /* UIMapButton.h */,
+				097E5BFF25D6C1990093BF3D /* UIMapButton.m */,
+			);
+			path = TGApp;
+			sourceTree = "<group>";
+		};
+		0982299F24DAF2980046F043 /* TGAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				098229A024DAF2980046F043 /* TGAppTests.m */,
+				098229A224DAF2980046F043 /* Info.plist */,
+			);
+			path = TGAppTests;
+			sourceTree = "<group>";
+		};
+		098229AA24DAF2980046F043 /* TGAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				098229AB24DAF2980046F043 /* TGAppUITests.m */,
+				098229AD24DAF2980046F043 /* Info.plist */,
+			);
+			path = TGAppUITests;
+			sourceTree = "<group>";
+		};
+		09ADF1D52505408B00253B5D /* TO */ = {
+			isa = PBXGroup;
+			children = (
+				09ADF1DA2505412700253B5D /* TOActivityCroppedImageProvider.h */,
+				09ADF1E82505412F00253B5D /* TOActivityCroppedImageProvider.m */,
+				09ADF1D82505412600253B5D /* TOCropOverlayView.h */,
+				09ADF1E62505412E00253B5D /* TOCropOverlayView.m */,
+				09ADF1DD2505412900253B5D /* TOCroppedImageAttributes.h */,
+				09ADF1DE2505412A00253B5D /* TOCroppedImageAttributes.m */,
+				09ADF1E22505412C00253B5D /* TOCropScrollView.h */,
+				09ADF1E72505412F00253B5D /* TOCropScrollView.m */,
+				09ADF1D62505412500253B5D /* TOCropToolbar.h */,
+				09ADF1E42505412D00253B5D /* TOCropToolbar.m */,
+				09ADF1E12505412B00253B5D /* TOCropView.h */,
+				09ADF1E32505412D00253B5D /* TOCropView.m */,
+				09ADF1DB2505412800253B5D /* TOCropViewConstants.h */,
+				09ADF1E52505412E00253B5D /* TOCropViewController.h */,
+				09ADF1D92505412700253B5D /* TOCropViewController.m */,
+				09ADF1DF2505412A00253B5D /* TOCropViewControllerTransitioning.h */,
+				09ADF1D72505412500253B5D /* TOCropViewControllerTransitioning.m */,
+				09ADF1E02505412B00253B5D /* UIImage+CropRotate.h */,
+				09ADF1DC2505412800253B5D /* UIImage+CropRotate.m */,
+			);
+			path = TO;
+			sourceTree = "<group>";
+		};
+		09E51634257686EB008BA68A /* TGStaticTable */ = {
+			isa = PBXGroup;
+			children = (
+				09E51635257686EB008BA68A /* TGCircleButton.h */,
+				09E51636257686EB008BA68A /* TGCircleButton.m */,
+				09E51637257686EB008BA68A /* TGStaticTable.h */,
+				09E51638257686EB008BA68A /* TGStaticViewController.h */,
+				09E51639257686EB008BA68A /* TGStaticViewController.m */,
+				09E5163A257686EB008BA68A /* TGSwitch.h */,
+				09E5163B257686EB008BA68A /* TGSwitch.m */,
+				09E5163C257686EB008BA68A /* TGTableRow.h */,
+				09E5163D257686EB008BA68A /* TGTableRow.m */,
+				09E5163E257686EB008BA68A /* TGTableSection.h */,
+				09E5163F257686EB008BA68A /* TGTableSection.m */,
+				09E51640257686EB008BA68A /* TGTableSections.h */,
+				09E51641257686EB008BA68A /* TGTableSections.m */,
+				09E51642257686EB008BA68A /* TGTableViewCell.h */,
+				09E51643257686EB008BA68A /* TGTableViewCell.m */,
+				09E51644257686EB008BA68A /* TGViewController.h */,
+				09E51645257686EB008BA68A /* TGViewController.m */,
+			);
+			path = TGStaticTable;
+			sourceTree = "<group>";
+		};
+		2458FD7AD9279D497156F582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C7E8F8CA1C18DA5891A9DA0 /* Pods_TGApp.framework */,
+				5F13A7E2071D7C9745C3127C /* Pods_TGApp_TGAppUITests.framework */,
+				95DB6BADB32F876D7DC2BB6C /* Pods_TGAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9C35991A7495C760A16C54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E51BE0D15C0451E62266CCDB /* Pods-TGApp.debug.xcconfig */,
+				E0C2AF5E8191D9358D5D42BD /* Pods-TGApp.release.xcconfig */,
+				35B36184448E9B541298C0FD /* Pods-TGApp-TGAppUITests.debug.xcconfig */,
+				67E682207A3E9769BE1B7DA5 /* Pods-TGApp-TGAppUITests.release.xcconfig */,
+				F29E550D498EC5BB76B1DA6F /* Pods-TGAppTests.debug.xcconfig */,
+				EA0B117099CCBE1B02076BE2 /* Pods-TGAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0982298024DAF2920046F043 /* TGApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098229B024DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGApp" */;
+			buildPhases = (
+				7BB8AF8DD279EB033A4B7718 /* [CP] Check Pods Manifest.lock */,
+				0982297D24DAF2920046F043 /* Sources */,
+				0982297E24DAF2920046F043 /* Frameworks */,
+				0982297F24DAF2920046F043 /* Resources */,
+				5285B34F3DBA6B69B7AD7773 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGApp;
+			productName = TGApp;
+			productReference = 0982298124DAF2920046F043 /* TGApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0982299B24DAF2980046F043 /* TGAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098229B324DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGAppTests" */;
+			buildPhases = (
+				773A2D1E363D044E48578576 /* [CP] Check Pods Manifest.lock */,
+				0982299824DAF2980046F043 /* Sources */,
+				0982299924DAF2980046F043 /* Frameworks */,
+				0982299A24DAF2980046F043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0982299E24DAF2980046F043 /* PBXTargetDependency */,
+			);
+			name = TGAppTests;
+			productName = TGAppTests;
+			productReference = 0982299C24DAF2980046F043 /* TGAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		098229A624DAF2980046F043 /* TGAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098229B624DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGAppUITests" */;
+			buildPhases = (
+				42C3570BE075B275E9D8D14F /* [CP] Check Pods Manifest.lock */,
+				098229A324DAF2980046F043 /* Sources */,
+				098229A424DAF2980046F043 /* Frameworks */,
+				098229A524DAF2980046F043 /* Resources */,
+				807EDF778ED38627A671C586 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				098229A924DAF2980046F043 /* PBXTargetDependency */,
+			);
+			name = TGAppUITests;
+			productName = TGAppUITests;
+			productReference = 098229A724DAF2980046F043 /* TGAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0982297924DAF2920046F043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Simone Margio";
+				TargetAttributes = {
+					0982298024DAF2920046F043 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0982299B24DAF2980046F043 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0982298024DAF2920046F043;
+					};
+					098229A624DAF2980046F043 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0982298024DAF2920046F043;
+					};
+				};
+			};
+			buildConfigurationList = 0982297C24DAF2920046F043 /* Build configuration list for PBXProject "TGApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0982297824DAF2920046F043;
+			productRefGroup = 0982298224DAF2920046F043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0982298024DAF2920046F043 /* TGApp */,
+				0982299B24DAF2980046F043 /* TGAppTests */,
+				098229A624DAF2980046F043 /* TGAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0982297F24DAF2920046F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0982299424DAF2970046F043 /* LaunchScreen.storyboard in Resources */,
+				0982299124DAF2970046F043 /* Assets.xcassets in Resources */,
+				09525682250935BB00EA34B6 /* GoogleService-Info.plist in Resources */,
+				09C5961F257AB2070044F15F /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0982299A24DAF2980046F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098229A524DAF2980046F043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42C3570BE075B275E9D8D14F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGApp-TGAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5285B34F3DBA6B69B7AD7773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGApp/Pods-TGApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGApp/Pods-TGApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGApp/Pods-TGApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773A2D1E363D044E48578576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB8AF8DD279EB033A4B7718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807EDF778ED38627A671C586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGApp-TGAppUITests/Pods-TGApp-TGAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGApp-TGAppUITests/Pods-TGApp-TGAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGApp-TGAppUITests/Pods-TGApp-TGAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0982297D24DAF2920046F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E5C0025D6C19A0093BF3D /* UIMapButton.m in Sources */,
+				09ADF1EB2505413000253B5D /* UIImage+CropRotate.m in Sources */,
+				09ADF1ED2505413000253B5D /* TOCropView.m in Sources */,
+				09C8AD9925F9094900841F3F /* TGHeaderView.m in Sources */,
+				09387A0524FBF3B900C25B97 /* Resnet50.mlmodel in Sources */,
+				09E5164A257686EB008BA68A /* TGTableSection.m in Sources */,
+				09E516552576889C008BA68A /* TGImagesController.m in Sources */,
+				094FC6522636F1BC004ECD7E /* TGClusterAnnotation.m in Sources */,
+				094FC6562636F1BC004ECD7E /* TGMapPointAnnotation.m in Sources */,
+				09ADF1EA2505413000253B5D /* TOCropViewController.m in Sources */,
+				0991D463256FA0CC009822CB /* TGSettingsViewController.m in Sources */,
+				09D075E12583C1400072229F /* UIScrollableLabel.m in Sources */,
+				093BC6FE24DAF80200BC54C8 /* TGImagesViewController.m in Sources */,
+				09B1F24D25069BF500D73BAC /* TGImage.m in Sources */,
+				09ADF1EE2505413000253B5D /* TOCropToolbar.m in Sources */,
+				093BC6F524DAF80200BC54C8 /* TGDotShapeLayer.m in Sources */,
+				09E5164B257686EB008BA68A /* TGTableSections.m in Sources */,
+				09E4916D24F7F99F00A61B96 /* Inceptionv3.mlmodel in Sources */,
+				093BC6F824DAF80200BC54C8 /* TGButton.m in Sources */,
+				092F0AD8258A50430065123A /* UIView+Toast.m in Sources */,
+				09ADF1E92505413000253B5D /* TOCropViewControllerTransitioning.m in Sources */,
+				09E51646257686EB008BA68A /* TGCircleButton.m in Sources */,
+				09ADF1EF2505413000253B5D /* TOCropOverlayView.m in Sources */,
+				09ADF1F02505413000253B5D /* TOCropScrollView.m in Sources */,
+				09ADF1F12505413000253B5D /* TOActivityCroppedImageProvider.m in Sources */,
+				093BC6F624DAF80200BC54C8 /* TGBarButtonItem.m in Sources */,
+				09ADF1EC2505413000253B5D /* TOCroppedImageAttributes.m in Sources */,
+				094FC6552636F1BC004ECD7E /* TGMapCluster.m in Sources */,
+				09E51649257686EB008BA68A /* TGTableRow.m in Sources */,
+				093BC6F724DAF80200BC54C8 /* main.m in Sources */,
+				093BC6FD24DAF80200BC54C8 /* TGMainViewController.m in Sources */,
+				09E516562576889C008BA68A /* TGImageViewerViewController.m in Sources */,
+				09E51648257686EB008BA68A /* TGSwitch.m in Sources */,
+				093BC6F424DAF80200BC54C8 /* TGPermissionsManager.m in Sources */,
+				098EB5A22507CD390060EB7F /* TGMetadata.m in Sources */,
+				09E5164D257686EB008BA68A /* TGViewController.m in Sources */,
+				091F0467257E65DC00A908A0 /* TGConfidenceSettingsViewController.m in Sources */,
+				094FC6532636F1BC004ECD7E /* TGClusterMapView.m in Sources */,
+				09871CCF25ADEA21001409D5 /* TGCoordinates.m in Sources */,
+				09E51647257686EB008BA68A /* TGStaticViewController.m in Sources */,
+				091C762D24F00AB100795C93 /* TGLabel.m in Sources */,
+				09B229A2257A8673001AFE53 /* TGConfettiView.m in Sources */,
+				094FC6542636F1BC004ECD7E /* TGClusterableAnnotation.m in Sources */,
+				093BC6F924DAF80200BC54C8 /* TGAppDelegate.m in Sources */,
+				09ADF1D12505189300253B5D /* MobileNet.mlmodel in Sources */,
+				09E5164C257686EB008BA68A /* TGTableViewCell.m in Sources */,
+				093BC6FB24DAF80200BC54C8 /* TGColor.m in Sources */,
+				093BC6FC24DAF80200BC54C8 /* TGDotView.m in Sources */,
+				093BC6FA24DAF80200BC54C8 /* TGImages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0982299824DAF2980046F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098229A124DAF2980046F043 /* TGAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098229A324DAF2980046F043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098229AC24DAF2980046F043 /* TGAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0982299E24DAF2980046F043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0982298024DAF2920046F043 /* TGApp */;
+			targetProxy = 0982299D24DAF2980046F043 /* PBXContainerItemProxy */;
+		};
+		098229A924DAF2980046F043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0982298024DAF2920046F043 /* TGApp */;
+			targetProxy = 098229A824DAF2980046F043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0982299224DAF2970046F043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0982299324DAF2970046F043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		098229AE24DAF2980046F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		098229AF24DAF2980046F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		098229B124DAF2980046F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51BE0D15C0451E62266CCDB /* Pods-TGApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		098229B224DAF2980046F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C2AF5E8191D9358D5D42BD /* Pods-TGApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		098229B424DAF2980046F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29E550D498EC5BB76B1DA6F /* Pods-TGAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGApp.app/TGApp";
+			};
+			name = Debug;
+		};
+		098229B524DAF2980046F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0B117099CCBE1B02076BE2 /* Pods-TGAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGApp.app/TGApp";
+			};
+			name = Release;
+		};
+		098229B724DAF2980046F043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B36184448E9B541298C0FD /* Pods-TGApp-TGAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGApp;
+			};
+			name = Debug;
+		};
+		098229B824DAF2980046F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E682207A3E9769BE1B7DA5 /* Pods-TGApp-TGAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EQ3HAG239S;
+				INFOPLIST_FILE = TGAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonemargio.TGAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0982297C24DAF2920046F043 /* Build configuration list for PBXProject "TGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098229AE24DAF2980046F043 /* Debug */,
+				098229AF24DAF2980046F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098229B024DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098229B124DAF2980046F043 /* Debug */,
+				098229B224DAF2980046F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098229B324DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098229B424DAF2980046F043 /* Debug */,
+				098229B524DAF2980046F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098229B624DAF2980046F043 /* Build configuration list for PBXNativeTarget "TGAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098229B724DAF2980046F043 /* Debug */,
+				098229B824DAF2980046F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0982297924DAF2920046F043 /* Project object */;
+}
